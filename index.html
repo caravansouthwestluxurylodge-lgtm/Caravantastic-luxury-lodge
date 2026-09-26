@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CaravanTastic & LuxuryLodge | UK Stays</title>
+<meta name="description" content="CaravanTastic & LuxuryLodge — comfortable UK lodge and caravan stays. Enquire, book through WhatsApp or arrange online payment.">
+<style>
+:root{--cyan:#16e1ef;--deep:#03141b;--deep2:#06252f;--card:rgba(8,42,52,.88);--white:#f7ffff;--muted:#b8d6da}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--white);background:radial-gradient(circle at 50% 0,#0a3b49 0,#03141b 42%,#020d12 100%);line-height:1.55}
+a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:50;background:rgba(2,14,19,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(22,225,239,.22)}
+.nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.5px}.brand img{width:48px;height:48px;border-radius:50%;object-fit:cover}.brand span{font-size:14px}.links{display:flex;gap:24px;color:#d8f8fb;font-size:14px}.links a:hover{color:var(--cyan)}
+.btn{display:inline-block;padding:13px 21px;border-radius:999px;background:var(--cyan);color:#032027;font-weight:800;border:1px solid var(--cyan);box-shadow:0 10px 30px rgba(22,225,239,.16);cursor:pointer}.btn.alt{background:transparent;color:var(--white);border-color:rgba(255,255,255,.28);box-shadow:none}
+.hero{padding:86px 0 70px}.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:48px;align-items:center}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase}.hero h1{font-size:clamp(44px,6vw,78px);line-height:.98;margin:14px 0 20px}.hero p{font-size:18px;color:var(--muted);max-width:640px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+.hero-photo{min-height:520px;border-radius:30px;overflow:hidden;border:1px solid rgba(22,225,239,.25);box-shadow:0 25px 90px rgba(0,0,0,.4);background:#082832}.hero-photo img{width:100%;height:100%;min-height:520px;object-fit:cover}
+section{padding:82px 0}.section-title{text-align:center;margin-bottom:42px}.section-title h2{font-size:38px;margin:8px 0 10px}.section-title p{max-width:690px;margin:auto;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{overflow:hidden;background:var(--card);border:1px solid rgba(22,225,239,.15);border-radius:22px;box-shadow:0 16px 50px rgba(0,0,0,.18)}.card img{width:100%;height:220px;object-fit:cover}.card-body{padding:24px}.price{color:var(--cyan);font-weight:900;font-size:22px;margin:8px 0 16px}.card p{color:var(--muted)}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.info .card{padding:26px}.icon{font-size:30px}
+.booking{background:linear-gradient(180deg,rgba(22,225,239,.07),rgba(22,225,239,.015))}.bookbox{max-width:920px;margin:auto;background:#061e27;border:1px solid rgba(22,225,239,.24);border-radius:28px;padding:30px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}.field label{font-size:13px;color:#ccebed}.field input,.field select,.field textarea{font:inherit;width:100%;padding:14px 15px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:#0a2c36;color:#fff;outline:none}.field textarea{min-height:110px;resize:vertical}.submit{width:100%;margin-top:18px}
+.contact-box{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.note{max-width:760px;margin:18px auto 0;color:#9fc1c6;text-align:center;font-size:13px}
+footer{border-top:1px solid rgba(22,225,239,.16);padding:34px 0;color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.small{font-size:13px}
+@media(max-width:850px){.links{display:none}.hero{padding-top:52px}.hero-grid,.cards,.info{grid-template-columns:1fr}.hero-photo{order:-1;min-height:360px}.hero-photo img{min-height:360px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.foot{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><img src="logo.png" alt="CaravanTastic & LuxuryLodge logo"><span>CARAVANTASTIC & LUXURYLODGE</span></a>
+    <div class="links"><a href="#stays">Stays</a><a href="#about">About</a><a href="#booking">Book</a><a href="#contact">Contact</a></div>
+    <a class="btn" href="#booking">Book now</a>
+  </div>
+</nav>
+
+<main id="home">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Luxury • Comfort • Adventure</div>
+      <h1>Escape to comfort in the UK.</h1>
+      <p>Welcome to CaravanTastic & LuxuryLodge. Explore comfortable lodge and caravan stays for relaxing breaks, family trips and memorable getaways.</p>
+      <div class="actions"><a class="btn" href="#booking">Check availability</a><a class="btn alt" href="#stays">View stays</a></div>
+      <p class="note" style="text-align:left;margin-left:0">Nightly rates vary by property and dates. Current advertised range: <strong>£120–£290+ per night</strong>.</p>
+    </div>
+    <div class="hero-photo">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=85" alt="Luxury accommodation interior">
+    </div>
+  </div>
+</section>
+
+<section id="stays">
+  <div class="wrap">
+    <div class="section-title"><div class="eyebrow">Our stays</div><h2>Choose your getaway</h2><p>These are showcase images for the website design. Replace them with photos of your actual properties before advertising a specific property.</p></div>
+    <div class="cards">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85" alt="Luxury lodge style interior">
+        <div class="card-body"><h3>Luxury Lodge</h3><div class="price">From £170/night</div><p>Beautifully presented accommodation for guests looking for a comfortable UK escape.</p><a class="btn" href="#booking">Enquire</a></div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=1000&q=85" alt="Comfortable holiday accommodation">
+        <div class="card-body"><h3>Premium Caravan</h3><div class="price">From £120/night</div><p>A cosy stay for couples, families and weekend travellers. Rates vary by date and property.</p><a class="btn" href="#booking">Enquire</a></div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85" alt="Modern holiday accommodation">
+        <div class="card-body"><h3>Luxury Getaway</h3><div class="price">Up to £290/night</div><p>Premium dates and properties can be priced up to £290 per night depending on availability.</p><a class="btn" href="#booking">Enquire</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-title"><div class="eyebrow">Why book with us</div><h2>Simple, comfortable, personal</h2></div>
+    <div class="info">
+      <div class="card"><div class="icon">🛏️</div><h3>Comfort</h3><p>Stay in welcoming spaces designed for a relaxing break.</p></div>
+      <div class="card"><div class="icon">📍</div><h3>UK stays</h3><p>Our business serves guests looking for lodge and caravan accommodation in the UK.</p></div>
+      <div class="card"><div class="icon">💬</div><h3>Easy booking</h3><p>Send your dates through WhatsApp or use the booking enquiry form below.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="wrap">
+    <div class="section-title"><div class="eyebrow">Reservations</div><h2>Request your stay</h2><p>Fill this in and the button will prepare a WhatsApp booking message for you.</p></div>
+    <div class="bookbox">
+      <form id="bookingForm">
+        <div class="formgrid">
+          <div class="field"><label>Full name</label><input id="name" required placeholder="Your name"></div>
+          <div class="field"><label>Email</label><input id="email" required type="email" placeholder="you@example.com"></div>
+          <div class="field"><label>Check-in</label><input id="checkin" required type="date"></div>
+          <div class="field"><label>Check-out</label><input id="checkout" required type="date"></div>
+          <div class="field"><label>Stay type</label><select id="stay"><option>Luxury Lodge</option><option>Premium Caravan</option><option>Luxury Getaway</option></select></div>
+          <div class="field"><label>Guests</label><select id="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+          <div class="field full"><label>Message</label><textarea id="message" placeholder="Anything you'd like us to know?"></textarea></div>
+        </div>
+        <button class="btn submit" type="submit">Continue on WhatsApp</button>
+      </form>
+      <p class="note">WhatsApp: +44 7732 299090 · Email: caravansouthwestluxurylodge@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-title"><div class="eyebrow">Contact</div><h2>Ready to plan your stay?</h2><p>For direct booking enquiries, contact us on WhatsApp or email.</p></div>
+    <div class="contact-box">
+      <a class="btn" href="https://wa.me/447732299090?text=Hello%20Caravan%20Southwest%20Luxury%20Lodge%2C%20I%27d%20like%20to%20make%20a%20booking%20enquiry.">WhatsApp us</a>
+      <a class="btn alt" href="mailto:caravansouthwestluxurylodge@gmail.com">Email us</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot"><div class="small">© 2026 CaravanTastic & LuxuryLodge. All rights reserved.</div><div class="small">Luxury • Comfort • Adventure</div></div>
+</footer>
+
+<script>
+document.getElementById('bookingForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value;
+  const email=document.getElementById('email').value;
+  const checkin=document.getElementById('checkin').value;
+  const checkout=document.getElementById('checkout').value;
+  const stay=document.getElementById('stay').value;
+  const guests=document.getElementById('guests').value;
+  const message=document.getElementById('message').value;
+  const text=`Hello CaravanTastic & LuxuryLodge, I'd like to make a booking enquiry.%0A%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AStay: ${encodeURIComponent(stay)}%0AGuests: ${encodeURIComponent(guests)}%0ACheck-in: ${encodeURIComponent(checkin)}%0ACheck-out: ${encodeURIComponent(checkout)}%0AMessage: ${encodeURIComponent(message)}`;
+  window.open('https://wa.me/447732299090?text='+text,'_blank');
+});
+</script>
+</body>
+</html>
